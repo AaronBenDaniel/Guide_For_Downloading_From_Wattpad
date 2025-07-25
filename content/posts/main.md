@@ -24,6 +24,6 @@ Android, MacOS, and Linux are tied for ease-of-use. Use whichever platform is th
 
 **-> [🐧 Linux 🐧](/posts/linux) <-**
 
-Unfortunately, there isn't a written guide for running a Wattpad downloader on iOS. It is most likely possible, but I don't have an iPhone to test with.
+Unfortunately, there is a written iOS guide for only the Google Colab method. There are most likely more methods, but I don't have an iPhone to test with and write guides.
 
 **-> [🍎 iOS 🍎](/posts/ios) <-**
