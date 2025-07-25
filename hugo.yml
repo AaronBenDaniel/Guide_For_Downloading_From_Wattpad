@@ -37,7 +37,7 @@ params:
   comments: false
   hidemeta: true
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -88,6 +88,10 @@ menu:
     - identifier: search
       name: Search
       url: /search/
+      weight: 10
+    - identifier: main
+      name: Getting Started
+      url: /posts/main
       weight: 10
       
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma

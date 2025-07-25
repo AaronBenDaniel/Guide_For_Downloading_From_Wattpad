@@ -4,9 +4,9 @@
     weight: 5
 ---
 
-There are two options for running a Wattpad downloader on Android: the easy way, and the hard way.
+There are three options for running a Wattpad downloader on Android: Termux, Google Colab, and Docker.
 
-### The Easy Way:
+### Termux:
 
 This method involves hosting an instance of [Feuerhamster](https://github.com/Feuerhamster)'s `wattpad-downloader`. Although it actually uses an older fork.
 
@@ -27,9 +27,25 @@ To stop the downloader, run `./stop.sh` and exit Termux either by clicking the "
 
 To start the downloader again, open Termux and run `./start.sh`.
 
-### The Hard Way:
+### Google Colab:
 
-This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s `WattpadDownloader`.
+This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s `WattpadDownloader` on a Google Colab virtual machine.
+
+*Note: This method requires a Google Account. If your account is part of a managed organization (work, school, etc) your account may not be able to use Google Colab.*
+
+*Disabling third-party cookies can interfere with this method, make sure to enable them when you use this script.*
+
+1) Open {{< linknewtab "https://colab.research.google.com/drive/15BVtjtboLrzTrnZ-9lQIKQaiMPR49H9g" "colab.research.google.com/drive/15BVtjtboLrzTrnZ-9lQIKQaiMPR49H9g" >}}.
+
+2) Click the triangle "run" button in the top left.
+
+3) Scroll down to the bottom of the page and ***WAIT***. The server needs a few minutes to start up.
+
+The WattpadDownloader interface should appear after a few minutes and can be used as normal.
+
+### Docker:
+
+This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s `WattpadDownloader` natively on your own machine.
 
 **This method is only available for a select few devices running Android 16.**
 
@@ -52,3 +68,5 @@ Under the "Debugging" header, find the "Linux development environment" option.
 *This page has a **lot** of options, it might take some searching*
 
 Open the page and enable the feature.
+
+*This guide is incomplete.*
