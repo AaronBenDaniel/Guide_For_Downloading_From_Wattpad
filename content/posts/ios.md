@@ -7,7 +7,7 @@ There is only one way to download Wattpad stories from a device running iOS.
 
 ### Google Colab:
 
-This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s `WattpadDownloader` on a Google Colab virtual machine.
+This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}} on a Google Colab virtual machine.
 
 *Note: This method requires a Google Account. If your account is part of a managed organization (work, school, etc) your account may not be able to use Google Colab.*
 

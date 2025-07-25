@@ -14,22 +14,43 @@ The following steps are based on this guide: https://wpdl-termux.wasmer.app.
 
 1) Install Termux through the [Play Store](https://play.google.com/store/apps/details?id=com.termux), [F-Droid](https://f-droid.org/en/packages/com.termux/), or [GithHub](https://github.com/termux/termux-app/releases).
 
-2) Open Termux and run this command: `curl -L https://tinyurl.com/4yjur5xk -o download.sh;/bin/bash download.sh` \
+2) Open Termux and run this command:
+```
+curl -L https://tinyurl.com/4yjur5xk -o download.sh;/bin/bash download.sh
+```
+
 **NOTE: Every character in these commands is important. Do not leave out any periods (.), slashes (/), the semicolon (;), or any other character**.
 
 This will download three scripts that can be used to control the downloader.
 
-3) Run `./install.sh`
+3) Run the following command:
+
+```
+./install.sh
+```
 
 Once this is completed, an instance of `wattpad-downloader` will be running on your device and it can be accessed at **{{< linknewtab "http://localhost:3000" "http://localhost:3000" >}}**.
 
-To stop the downloader, run `./stop.sh` and exit Termux either by clicking the "exit" button in the notification it creates or by running the `exit` command.
+To stop the downloader, run
 
-To start the downloader again, open Termux and run `./start.sh`.
+```
+./stop.sh
+```
+and exit Termux either by clicking the "exit" button in the notification it creates or by running
+
+```
+exit
+```
+
+To start the downloader again, open Termux and run
+
+```
+./start.sh
+```
 
 ### Google Colab:
 
-This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s `WattpadDownloader` on a Google Colab virtual machine.
+This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}} on a Google Colab virtual machine.
 
 *Note: This method requires a Google Account. If your account is part of a managed organization (work, school, etc) your account may not be able to use Google Colab.*
 
@@ -45,7 +66,7 @@ The WattpadDownloader interface should appear after a few minutes and can be use
 
 ### Docker:
 
-This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s `WattpadDownloader` natively on your own machine.
+This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}} natively on your own machine.
 
 **This method is only available for a select few devices running Android 16.**
 

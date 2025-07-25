@@ -12,7 +12,7 @@ There are five ways to run a Wattpad downloader on Windows: wpdl-py-cross (preco
 
 Using the wpdl-py-cross (precompiled) method if by far the easiest way to download stories from Wattpad. Choose this option if you aren't sure what to pick.
 
-This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s `wpdl-py-cross`.
+This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-py-cross" "wpdl-py-cross" >}}.
 
 1) Download the Windows executable .zip from  [Github](https://github.com/ZhiFenBL/wpdl-py-cross/actions/runs/16499441334/artifacts/3607095145).
 
@@ -22,19 +22,19 @@ This method involves running a precompiled version of [ZhiFenBL](https://github.
 
 ### wpdl-py-cross (Python):
 
-This method involves running [ZhiFenBL](https://github.com/ZhiFenBL)'s `wpdl-py-cross` using a python virtual environment.
+This method involves running [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-py-cross" "wpdl-py-cross" >}} using a python virtual environment.
 
 *This guide is incomplete.*
 
 ### Wattad_Downloader:
 
-This method involves running [AaronBenDaniel](https://github.com/AaronBenDaniel)'s `Wattpad_Downloader` using a python virtual environment.
+This method involves running [AaronBenDaniel](https://github.com/AaronBenDaniel)'s {{< linknewtab "https://github.com/AaronBenDaniel/Wattpad_Downloader" "Wattpad_Downloader" >}} using a python virtual environment.
 
 *This guide is incomplete.*
 
 ### Google Colab:
 
-This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s `WattpadDownloader` on a Google Colab virtual machine.
+This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}} on a Google Colab virtual machine.
 
 *Note: This method requires a Google Account. If your account is part of a managed organization (work, school, etc) your account may not be able to use Google Colab.*
 
@@ -50,7 +50,7 @@ The WattpadDownloader interface should appear after a few minutes and can be use
 
 ### Docker:
 
-This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s `WattpadDownloader` natively on your own machine.
+This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}} natively on your own machine.
 
 1) [Download Docker Desktop](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe).
 
@@ -60,11 +60,15 @@ Docker provides their own {{< linknewtab "https://docs.docker.com/desktop/setup/
 
 3) Run the following command inside of the terminal inside of Docker Desktop (it's in the bottom right)
 
-`docker run --restart=unless-stopped -p 5042:80 sowansow/wattpaddownloader:latest`
+```
+docker run --restart=unless-stopped -p 5042:80 sowansow/wattpaddownloader:latest
+```
 
 If that fails, saying something along the lines of "permission denied" instead run
 
-`sudo docker run --restart=unless-stopped -p 5042:80 sowansow/wattpaddownloader:latest`
+```
+sudo docker run --restart=unless-stopped -p 5042:80 sowansow/wattpaddownloader:latest
+```
 
 This might ask for a password, use the password of whatever administrator account your computer has.
 

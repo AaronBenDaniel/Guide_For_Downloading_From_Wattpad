@@ -26,7 +26,7 @@ params:
 
   ShowReadingTime: false
   ShowShareButtons: false
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: false
