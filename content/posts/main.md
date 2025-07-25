@@ -12,11 +12,11 @@ In general, it's best to find a way to download Wattpad stories that runs locall
 
 So far, no one has been banned or had their accounts closed due to downloading, but it's important to understand the risks that come with it. It is against Wattpad's Terms of Service and they are within their rights to take action against you. That being said, most likely worst that will happen is you get rate-limited if you download a lot in a short period of time.
 
-If possible, the best method for downloading Wattpad stories is on the Windows. If you have access to a Windows machine, that will be the easiest way.
+If possible, the best method for downloading Wattpad stories is on Windows. If you have access to a Windows machine, that will be the easiest way.
 
 **-> [🪟 Windows 🪟](/posts/windows) <-**
 
-Android, MacOS, and Linux are tied for ease-of-use. Use which ever platform is the most convenient for you. However, Android has fewer options.
+Android, MacOS, and Linux are tied for ease-of-use. Use whichever platform is the most convenient for you. However, Android has fewer options.
 
 **-> [🤖 Android 🤖](/posts/android) <-**
 
