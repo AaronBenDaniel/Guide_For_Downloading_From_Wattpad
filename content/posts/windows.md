@@ -36,7 +36,7 @@ This method involves running [AaronBenDaniel](https://github.com/AaronBenDaniel)
 
 This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}} on a Google Colab virtual machine.
 
-*Note: This method requires a Google Account. If your account is part of a managed organization (work, school, etc) your account may not be able to use Google Colab.*
+*Note: This method requires a Google Account. If your account is part of a managed organization (work, school, etc) you may not be able to use Google Colab.*
 
 *Disabling third-party cookies can interfere with this method, make sure to enable them when you use this script.*
 
@@ -47,6 +47,8 @@ This method involves hosting an instance of [TheOnlyWayUp](https://github.com/Th
 3) Scroll down to the bottom of the page and ***WAIT***. The server needs a few minutes to start up.
 
 The WattpadDownloader interface should appear after a few minutes and can be used as normal.
+
+**It may sometimes fail on its first run. If the interface has not appeared and the output tells you it should have, try stopping the program and starting it again.**
 
 ### Docker:
 
