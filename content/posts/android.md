@@ -66,6 +66,8 @@ The WattpadDownloader interface should appear after a few minutes and can be use
 
 **It may sometimes fail on its first run. If the interface has not appeared and the output tells you it should have, try stopping the program and starting it again.**
 
+To stop the downloader, close the tab. To start it again, follow these steps again.
+
 ### Docker:
 
 This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}} natively on your own machine.
