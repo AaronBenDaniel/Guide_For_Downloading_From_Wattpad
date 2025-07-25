@@ -77,7 +77,7 @@ This method involves running [AaronBenDaniel](https://github.com/AaronBenDaniel)
 
 ```
 sudo apt-get update
-sudo apt-get install python3 python3-venv git
+sudo apt-get install python3 python3-venv python3-tk git
 ```
 
 2) Clone {{< linknewtab "https://github.com/AaronBenDaniel/Wattpad_Downloader" "Wattpad_Downloader" >}}:
@@ -106,7 +106,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-6) Run wpdl-py-cross:
+6) Run Wattpad_Downloader:
 
 ```
 python src/main.py

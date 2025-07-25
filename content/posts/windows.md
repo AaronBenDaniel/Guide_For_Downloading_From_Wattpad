@@ -24,13 +24,91 @@ This method involves running a precompiled version of [ZhiFenBL](https://github.
 
 This method involves running [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-py-cross" "wpdl-py-cross" >}} using a python virtual environment.
 
+1) Open `PowerShell`.
+
+2) Run
+
+```
+python --version
+```
+
+If the Microsoft Store opens to `Python 3.13`, install it, and continue to the next step.
+
+If it shows something like
+
+```
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+then run
+```
+exit()
+```
+and continue to the next step
+
+3) Download [wpdl-py-cross]()
+
 *This guide is incomplete.*
 
 ### Wattad_Downloader:
 
 This method involves running [AaronBenDaniel](https://github.com/AaronBenDaniel)'s {{< linknewtab "https://github.com/AaronBenDaniel/Wattpad_Downloader" "Wattpad_Downloader" >}} using a python virtual environment.
 
-*This guide is incomplete.*
+1) Open `PowerShell`.
+
+2) Run
+
+```
+python --version
+```
+
+If the Microsoft Store opens to `Python 3.13`, install it, and continue to the next step.
+
+If it shows something like
+
+```
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+then continue to the next step
+
+3) Download [Wattpad_Downloader](https://github.com/AaronBenDaniel/Wattpad_Downloader/archive/refs/heads/main.zip)
+
+4) Extract the `.zip` file
+
+5) Inside the extracted files, in the folder with the files `src`, `README.md`, and `requirements.txt`, etc, make a folder called `venv`.
+
+6) Open the folder with the files in the Terminal by right clicking in the file explorer **while not hovering over a file** and selecting the option "Open in Terminal"
+
+7) Create a Python virtual environment:
+
+```
+python -m venv venv
+```
+
+8) Activate the virtual environment:
+
+```
+./venv/Scripts/Activate.bat
+```
+
+9) Install requirements:
+
+```
+pip install -r requirements.txt
+```
+
+10) Run Wattpad_Downloader:
+
+```
+python src/main.py
+```
+
+**Follow steps 6, 8, and 10 to run `Wattpad_Downloader` again**
 
 ### Google Colab:
 

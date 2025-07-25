@@ -91,7 +91,7 @@ menu:
       weight: 10
     - identifier: main
       name: Getting Started
-      url: /posts/main
+      url: /posts/getting-started
       weight: 10
       
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
