@@ -1,0 +1,7 @@
+<img loading=eager src="{{ .Destination | safeURL }}"
+  {{- with .Text }} alt="{{ . }}"{{ end -}}
+  {{- with .Title }} title="{{ . }}"{{ end -}}
+>
+{{- /* chomp trailing newline */ -}}
+
+
