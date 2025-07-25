@@ -12,7 +12,7 @@ This method involves hosting an instance of [Feuerhamster](https://github.com/Fe
 
 The following steps are based on this guide: https://wpdl-termux.wasmer.app.
 
-1) Install Termux through the [Play Store](), [F-Droid](), or [GithHub](https://github.com/termux/termux-app/releases).
+1) Install Termux through the [Play Store](https://play.google.com/store/apps/details?id=com.termux), [F-Droid](https://f-droid.org/en/packages/com.termux/), or [GithHub](https://github.com/termux/termux-app/releases).
 
 2) Open Termux and run this command: `curl -L https://tinyurl.com/4yjur5xk -o download.sh;/bin/bash download.sh` \
 **NOTE: Every character in these commands is important. Do not leave out any periods (.), slashes (/), the semicolon (;), or any other character**.
