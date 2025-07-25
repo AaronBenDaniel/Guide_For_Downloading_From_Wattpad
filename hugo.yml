@@ -60,15 +60,15 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Guide For Downloading Stories From Wattpad"
-    Content: This website aims to provide easy-to-follow instruction for downloading stories from Wattpad.
+    Title: "THIS WEBSITE IS UNDER CONSTRUCTION"
+    Content: Guides are incomplete and subject to change without notice.
 
   socialIcons:
     - name: github
-      url: "https://github.com/AaronBenDaniel/Guide_For_Downloading_Stories_From_Wattpad"
+      url: "https://github.com/AaronBenDaniel/Guide_For_Downloading_From_Wattpad"
 
   editPost:
-    URL: "https://github.com/AaronBenDaniel/Guide_For_Downloading_Stories_From_Wattpad"
+    URL: "https://github.com/AaronBenDaniel/Guide_For_Downloading_From_Wattpad"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
