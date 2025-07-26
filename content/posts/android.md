@@ -8,7 +8,7 @@ There are three options for running a Wattpad downloader on Android: Termux, Goo
 
 ### Termux:
 
-This method involves hosting an instance of [Feuerhamster](https://github.com/Feuerhamster)'s `wattpad-downloader`. Although it actually uses an older fork.
+This method involves hosting an instance of [Feuerhamster](https://github.com/Feuerhamster)'s [wattpad-downloader](https://github.com/Feuerhamster/wattpad-downloader). Although it actually uses an older fork.
 
 The following steps are based on this guide: https://wpdl-termux.wasmer.app.
 
