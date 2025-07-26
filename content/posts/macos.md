@@ -14,7 +14,7 @@ Using the wpdl-py-cross (precompiled) method if by far the easiest way to downlo
 
 This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-py-cross" "wpdl-py-cross" >}}.
 
-1) Download the MacOS `.zip` from  [Github](https://github.com/ZhiFenBL/wpdl-py-cross/actions/runs/16499441334/artifacts/3607107280).
+1) Download the MacOS `.zip` from  [Github](https://github.com/ZhiFenBL/bin-wpdl-py/releases/download/v0.0.1/macos-build-arm64-v0.0.1.zip).
 
 2) ???
 
