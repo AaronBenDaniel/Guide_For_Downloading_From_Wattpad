@@ -4,7 +4,19 @@
     weight: 5
 ---
 
-There are three options for running a Wattpad downloader on Android: Termux, Google Colab, and Docker.
+There are four options for running a Wattpad downloader on Android: wpdl-basic-android, Termux, Google Colab, and Docker.
+
+### wpdl-basic-android
+
+This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-basic-android" "wpdl-basic-android" >}}. ***THIS IS A CLOSED-SOURCE APP.***
+
+1) Download [wpdl-basic-android](https://github.com/ZhiFenBL/bin-wpdl-basic-android/releases/download/v0.0.1/wpdl-basic-0.0.1-universal.apk).
+
+2) Install the `.apk`.
+
+Open the `.apk` file in your device's file manager, if it says that the app cannot install from unknown sources, enable that feature in your file browser's app settings (via Android, not the built in settings).
+
+3) Open the `WPDL-Basic` app.
 
 ### Termux:
 
