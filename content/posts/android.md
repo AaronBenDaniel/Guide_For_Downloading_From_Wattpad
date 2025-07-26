@@ -8,6 +8,10 @@ There are three options for running a Wattpad downloader on Android: Termux, Goo
 
 ### Termux:
 
+{{< youtube Q-2tAbwtjyo >}}
+
+*This guide has a video example.*
+
 This method involves hosting an instance of [Feuerhamster](https://github.com/Feuerhamster)'s [wattpad-downloader](https://github.com/Feuerhamster/wattpad-downloader). Although it actually uses an older fork.
 
 The following steps are based on this guide: https://wpdl-termux.wasmer.app.
@@ -49,6 +53,10 @@ To start the downloader again, open Termux and run
 ```
 
 ### Google Colab:
+
+{{< youtube Byf209XnNKU >}}
+
+*This guide has a video example.*
 
 This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}} on a Google Colab virtual machine.
 
