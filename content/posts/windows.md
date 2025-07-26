@@ -14,7 +14,7 @@ Using the wpdl-py-cross (precompiled) method if by far the easiest way to downlo
 
 This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-py-cross" "wpdl-py-cross" >}}.
 
-1) Download the Windows `.zip` from  [Github](https://github.com/ZhiFenBL/wpdl-py-cross/actions/runs/16499441334/artifacts/3607095145).
+1) Download the Windows `.zip` from  {{< linknewtab "https://drive.google.com/file/d/1RBvGyOQM7GSy_bnajQ5M3_I0LzptIB6_/view" "Google Drive" >}}.
 
 2) Extract the `.zip` file.
 
