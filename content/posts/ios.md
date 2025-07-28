@@ -3,7 +3,13 @@
     Summary: If you want to download on an iPhone.
     weight: 8
 ---
-There is only one way to download Wattpad stories from a device running iOS.
+
+There are two way to download Wattpad stories on a device running iOS: wpd.my and Google Colab.
+
+### wpd.my
+
+[wpd.my](https://wpd.my) is {{< linknewtab "https://github.com/TheOnlyWayUp/" "TheOnlyWayUp" >}}'s public instance of their project, {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}}. \
+*Note: this website is liable to be removed by Wattpad at any time.*
 
 ### Google Colab:
 

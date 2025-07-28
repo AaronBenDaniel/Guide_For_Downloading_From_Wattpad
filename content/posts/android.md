@@ -4,7 +4,12 @@
     weight: 5
 ---
 
-There are four options for running a Wattpad downloader on Android: wpdl-basic-android, Termux, Google Colab, and Docker.
+There are five options for downloading Wattpad stories on Android: wpd.my, wpdl-basic-android, Termux, Google Colab, and Docker.
+
+### wpd.my
+
+[wpd.my](https://wpd.my) is {{< linknewtab "https://github.com/TheOnlyWayUp/" "TheOnlyWayUp" >}}'s public instance of their project, {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}}. \
+*Note: this website is liable to be removed by Wattpad at any time.*
 
 ### wpdl-basic-android
 

@@ -4,9 +4,14 @@
     weight: 7
 ---
 
-There are five ways to run a Wattpad downloader on MacOS: wpdl-py-cross (precompiled), wpdl-py-cross (Python), Wattpad_Downloader, Google Colab, and Docker.
+There are six ways to run a Wattpad downloader on MacOS: wpd.my, wpdl-py-cross (precompiled), wpdl-py-cross (Python), Wattpad_Downloader, Google Colab, and Docker.
 
 *None of these methods have been tested by myself, as I do not have a Mac. They should all work, however.*
+
+### wpd.my
+
+[wpd.my](https://wpd.my) is {{< linknewtab "https://github.com/TheOnlyWayUp/" "TheOnlyWayUp" >}}'s public instance of their project, {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}}. \
+*Note: this website is liable to be removed by Wattpad at any time.*
 
 ### wpdl-py-cross (precomiled):
 

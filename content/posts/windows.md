@@ -4,9 +4,14 @@
     weight: 6
 ---
 
-There are five ways to run a Wattpad downloader on Windows: wpdl-py-cross (precompiled), wpdl-py-cross (Python), Wattpad_Downloader, Google Colab, and Docker.
+There are six ways to run a Wattpad downloader on Windows: wpd.my, wpdl-py-cross (precompiled), wpdl-py-cross (Python), Wattpad_Downloader, Google Colab, and Docker.
 
 *All of these methods have been tested on *Windows 11 only*. While they will most likely work on Windows 10, there is no guarantee.*
+
+### wpd.my
+
+[wpd.my](https://wpd.my) is {{< linknewtab "https://github.com/TheOnlyWayUp/" "TheOnlyWayUp" >}}'s public instance of their project, {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}}. \
+*Note: this website is liable to be removed by Wattpad at any time.*
 
 ### wpdl-py-cross (precomiled):
 

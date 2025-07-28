@@ -4,9 +4,14 @@
     weight: 9
 ---
 
-There are five ways to run a Wattpad downloader on Linux: wpdl-py-cross (precompiled), wpdl-py-cross (Python), Wattpad_Downloader, Google Colab, and Docker.
+There are six ways to run a Wattpad downloader on Linux: wpd.my, wpdl-py-cross (precompiled), wpdl-py-cross (Python), Wattpad_Downloader, Google Colab, and Docker.
 
 *All of these methods have been tested on *Linux Mint 22.1 only*. While they will most likely work on other distros, there's no guarantee.*
+
+### wpd.my
+
+[wpd.my](https://wpd.my) is {{< linknewtab "https://github.com/TheOnlyWayUp/" "TheOnlyWayUp" >}}'s public instance of their project, {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}}. \
+*Note: this website is liable to be removed by Wattpad at any time.*
 
 ### wpdl-py-cross (precomiled):
 
