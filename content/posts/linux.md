@@ -19,7 +19,7 @@ Using the wpdl-py-cross (precompiled) method if by far the easiest way to downlo
 
 This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/WattDownload/wpdl-py-cross" "wpdl-py-cross" >}}.
 
-1) Download the Linux `linus-build-v*.*.*.zip` from  {{< linknewtab "https://github.com/WattDownload/wpdl-py-cross/releases/latest" "GitHub" >}}..
+1) Download the Linux `linus-build-v*.*.*.zip` from  {{< linknewtab "https://github.com/WattDownload/wpdl-py-cross/releases/latest" "GitHub" >}}.
 
 2) Extract the `.zip` file.
 
