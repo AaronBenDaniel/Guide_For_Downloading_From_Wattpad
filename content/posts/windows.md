@@ -17,7 +17,7 @@ There are six ways to run a Wattpad downloader on Windows: wpd.my, wpdl-py-cross
 
 Using the wpdl-py-cross (precompiled) method if by far the easiest way to download stories from Wattpad. Choose this option if you aren't sure what to pick.
 
-This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/WattDownload/wpdl-py-cross/releases/latest" "wpdl-py-cross" >}}.
+This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/WattDownload/wpdl-py-cross" "wpdl-py-cross" >}}.
 
 1) Download the Windows `windows-build-v*.*.*.zip` from  {{< linknewtab "https://github.com/WattDownload/wpdl-py-cross/releases/latest" "GitHub" >}}.
 
