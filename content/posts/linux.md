@@ -27,7 +27,7 @@ This method involves running a precompiled version of [ZhiFenBL](https://github.
 
 ### wpdl-py-cross (Python):
 
-This method involves running [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-py-cross" "wpdl-py-cross" >}} using a python virtual environment.
+This method involves running [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/WattDownload/wpdl-py-cross" "wpdl-py-cross" >}} using a python virtual environment.
 
 *The following guide is written using* `apt`*. For non Debian-based distros, use your native package manager. Please note that package names may differ.*
 
