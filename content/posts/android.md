@@ -11,17 +11,17 @@ There are five options for downloading Wattpad stories on Android: wpd.my, wpdl-
 [wpd.my](https://wpd.my) is {{< linknewtab "https://github.com/TheOnlyWayUp/" "TheOnlyWayUp" >}}'s public instance of their project, {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}}. \
 *Note: this website is liable to be removed by Wattpad at any time.*
 
-### wpdl-basic-android
+### wp-epub-rs-emini
 
-This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-basic-android" "wpdl-basic-android" >}}. ***THIS IS A CLOSED-SOURCE APP.***
+This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/WattDownload/wp-epub-rs-emini" "wp-epub-rs-emini" >}}.
 
-1) Download [wpdl-basic-android](https://github.com/ZhiFenBL/bin-wpdl-basic-android/releases/download/v0.0.1/wpdl-basic-0.0.1-universal.apk).
+1) Go to the [GitHub releases page](https://github.com/WattDownload/wp-epub-rs-emini/releases) and download the file named `android-universal-wprust-*.*.*.apk`.
 
 2) Install the `.apk`.
 
 Open the `.apk` file in your device's file manager, if it says that the app cannot install from unknown sources, enable that feature in your file browser's app settings (via Android, not the built in settings).
 
-3) Open the `WPDL-Basic` app.
+3) Open the `WattDL` app.
 
 ### Termux:
 
@@ -93,13 +93,15 @@ The WattpadDownloader interface should appear after a few minutes and can be use
 
 To stop the downloader, close the tab. To start it again, follow these steps again.
 
-### Docker:
+# Docker:
 
 This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}} natively on your own machine.
 
-**This method is only available for a select few devices running Android 16.**
+**This method is only available for a select few devices running Android 16 or later.**
 
-1) Enable the Android Developer Mode.
+### NOTE: When this guide tells you to run a command, DO NOT USE PASTING HINTS FROM YOUR KEYBOARD. It will most likely paste an incomplete command. Long-press and select the `paste` option instead.
+
+### 1) Enable the Android Developer Mode.
 
 Open your settings app and find the "About phone" option.
 
@@ -107,7 +109,7 @@ Scroll down to the bottom of the page and find the "Build number".
 
 Repeatedly tap the "Build number". It won't appear to do anything at first, but you will start seeing messages about Developer Mode. Continue tapping until you get the message: "You are now a developer!"
 
-2) Open the "Developer options".
+### 2) Enable the Linux Development Environment.
 
 Open your settings app and find the "System" option.
 
@@ -119,4 +121,66 @@ Under the "Debugging" header, find the "Linux development environment" option.
 
 Open the page and enable the feature.
 
-*This guide is incomplete.*
+*A new app should have appeared on your phone called `Terminal`*
+
+### 3) Install Docker Engine
+
+Open the `Terminal` app.
+
+***You must enable notification permissions***
+
+Click `Install` \
+*This step will take some time to complete* \
+*Once everything in finished, a terminal prompt should open.*
+
+Run the following commands: \
+*These commands come from [Docker's official Debian install guide](https://docs.docker.com/engine/install/debian/#install-using-the-repository)*
+```
+# Add Docker's official GPG key:
+sudo apt update
+yes | sudo apt install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
+Types: deb
+URIs: https://download.docker.com/linux/debian
+Suites: $(. /etc/os-release && echo "$VERSION_CODENAME")
+Components: stable
+Signed-By: /etc/apt/keyrings/docker.asc
+EOF
+
+# Install Docker Engine
+sudo apt update
+yes | sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+### 4) Clone and build `WattpadDownloader`
+
+Run the following command:
+
+```
+git clone https://github.com/TheOnlyWayUp/WattpadDownloader
+cd WattpadDownloader
+sudo docker build -t wpd .
+```
+
+### 5) Run `WattpadDownloader`
+
+Run the following command:
+
+```
+sudo docker run --rm -p 5042:80 wpd
+```
+
+***You should get a notification from the `Terminal` app about port 5042, click `Accept`.***
+
+You should now be able to access your local instance of `WattpadDownloader` at [http://localhost:5042](http://localhost:5042).
+
+When you are finished, simply close the `Terminal` app.
+
+You must open the `Terminal` app and perform step 5 every time you wish to run the downloader after you have closed the app. You may not see the notification again after your first time.
+
+*If something goes wrong and you mess something up (and you don't know how to recover), disable the `Linux Development Environment` option and restart the guide. This will clear the virtual machine's memory and you can start with a fresh install.*

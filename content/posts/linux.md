@@ -48,7 +48,6 @@ cd wpdl-py-cross
 3) Create a Python virtual environment:
 
 ```
-mkdir venv
 python3 -m venv venv
 ```
 
