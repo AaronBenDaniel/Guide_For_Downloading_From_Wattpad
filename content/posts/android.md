@@ -93,15 +93,15 @@ The WattpadDownloader interface should appear after a few minutes and can be use
 
 To stop the downloader, close the tab. To start it again, follow these steps again.
 
-# Docker:
+### Docker:
 
 This method involves hosting an instance of [TheOnlyWayUp](https://github.com/TheOnlyWayUp)'s {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}} natively on your own machine.
 
 **This method is only available for a select few devices running Android 16 or later.**
 
-### NOTE: When this guide tells you to run a command, DO NOT USE PASTING HINTS FROM YOUR KEYBOARD. It will most likely paste an incomplete command. Long-press and select the `paste` option instead.
+**NOTE: When this guide tells you to run a command, DO NOT USE PASTING HINTS FROM YOUR KEYBOARD. It will most likely paste an incomplete command. Long-press and select the `paste` option instead.**
 
-### 1) Enable the Android Developer Mode.
+**1) Enable the Android Developer Mode.**
 
 Open your settings app and find the "About phone" option.
 
@@ -109,7 +109,7 @@ Scroll down to the bottom of the page and find the "Build number".
 
 Repeatedly tap the "Build number". It won't appear to do anything at first, but you will start seeing messages about Developer Mode. Continue tapping until you get the message: "You are now a developer!"
 
-### 2) Enable the Linux Development Environment.
+**2) Enable the Linux Development Environment.**
 
 Open your settings app and find the "System" option.
 
@@ -123,7 +123,7 @@ Open the page and enable the feature.
 
 *A new app should have appeared on your phone called `Terminal`*
 
-### 3) Install Docker Engine
+**3) Install Docker Engine**
 
 Open the `Terminal` app.
 
@@ -157,7 +157,7 @@ sudo apt update
 yes | sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-### 4) Clone and build `WattpadDownloader`
+**4) Clone and build `WattpadDownloader`**
 
 Run the following command:
 
@@ -167,7 +167,7 @@ cd WattpadDownloader
 sudo docker build -t wpd .
 ```
 
-### 5) Run `WattpadDownloader`
+**5) Run `WattpadDownloader`**
 
 Run the following command:
 
