@@ -1,5 +1,5 @@
 baseURL: "https://wpd.abendaniel.top"
-title: Guide For Downloading Stories From Wattpad
+title: Wattpad Downloading Guide
 paginate: 6
 theme: PaperMod
 
@@ -14,8 +14,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Guide For Downloading Stories From Wattpad
-  description: "Guide For Downloading Stories From Wattpad"
+  title: Wattpad Downloading Guide
+  description: "Wattpad Downloading Guide"
   keywords: [Guide, PaperMod]
   author: Aaron BenDaniel
   # author: ["Me", "You"] # multiple authors

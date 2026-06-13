@@ -1,4 +1,4 @@
-# Guide For Downloading Stories From Wattpad
+# Wattpad Downloading Guide
 
 A PaperMod website built with Hugo that details how to run programs that download stories from Wattpad for various platforms.
 
