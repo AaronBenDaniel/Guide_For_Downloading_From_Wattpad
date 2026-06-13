@@ -60,15 +60,15 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "THIS WEBSITE IS UNDER CONSTRUCTION"
-    Content: Guides are incomplete and subject to change without notice.
+    Title: "Wattpad Downloading Guide"
+    Content: Guides for downloading stories from Wattpad, sorted by platform.
 
   socialIcons:
     - name: github
-      url: "https://github.com/AaronBenDaniel/Guide_For_Downloading_From_Wattpad"
+      url: "https://github.com/AaronBenDaniel/Wattpad_Downloading_Guide"
 
   editPost:
-    URL: "https://github.com/AaronBenDaniel/Guide_For_Downloading_From_Wattpad"
+    URL: "https://github.com/AaronBenDaniel/Wattpad_Downloading_Guide"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

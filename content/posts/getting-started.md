@@ -20,7 +20,7 @@ So far, no one has been banned or had their accounts closed due to downloading, 
 [wpd.my](https://wpd.my) is {{< linknewtab "https://github.com/TheOnlyWayUp/" "TheOnlyWayUp" >}}'s public instance of their project, {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}}. \
 *Note: this website is liable to be removed by Wattpad at any time.*
 
-### Chose your platform
+### Choose your platform
 
 If possible, the best methods for downloading Wattpad stories are on desktop computers (Windows, Mac, Linux). If you have access to one, that will be the easiest way.
 

@@ -4,60 +4,27 @@
     weight: 6
 ---
 
-There are six ways to run a Wattpad downloader on Windows: wpd.my, wpdl-py-cross (precompiled), wpdl-py-cross (Python), Wattpad_Downloader, Google Colab, and Docker.
+There are five ways to run a Wattpad downloader on Windows: wpd.my, wp-epub-rs-emini, Wattpad_Downloader, Google Colab, and Docker.
 
-*All of these methods have been tested on *Windows 11 only*. While they will most likely work on Windows 10, there is no guarantee.*
+*All of these methods have been tested on Windows 11 only. While they will most likely work on Windows 10, there is no guarantee.*
 
 ### wpd.my
 
 [wpd.my](https://wpd.my) is {{< linknewtab "https://github.com/TheOnlyWayUp/" "TheOnlyWayUp" >}}'s public instance of their project, {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}}. \
 *Note: this website is liable to be removed by Wattpad at any time.*
 
-### wpdl-py-cross (precomiled):
+### wp-epub-rs-emini:
 
-Using the wpdl-py-cross (precompiled) method if by far the easiest way to download stories from Wattpad. Choose this option if you aren't sure what to pick.
+This method involves installing [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/WattDownload/wp-epub-rs-emini" "wp-epub-rs-emini" >}}.
 
-This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-py-cross" "wpdl-py-cross" >}}.
+1) Download [the file called "windows-x86_64-wprust-0.3.0-alpha.1-setup-with-jre.exe"](https://github.com/WattDownload/wp-epub-rs-emini/releases)
 
-1) Download the Windows `.zip` from  {{< linknewtab "https://github.com/ZhiFenBL/bin-wpdl-py/releases/download/v0.0.1/windows-build-v0.0.1.zip" "GitHub" >}}.
+2) Run the installer. Follow all prompts. \
+***Windows Defender may activate. If this happens, click "More info" and then "Run anyway".***
 
-2) Extract the `.zip` file.
+3) Open wp-epub-rs-emini
 
-3) Run the `wpdl_py_desktop.exe` file.
-
-### wpdl-py-cross (Python):
-
-This method involves running [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-py-cross" "wpdl-py-cross" >}} using a python virtual environment.
-
-1) Open `PowerShell`.
-
-2) Run
-
-```
-python --version
-```
-
-If the Microsoft Store opens to `Python 3.13`, install it, and continue to the next step.
-
-If it shows something like
-
-```
-Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
->>>
-```
-
-then run
-```
-exit()
-```
-and continue to the next step
-
-3) Download [wpdl-py-cross]()
-
-*This guide is incomplete.*
-
-### Wattad_Downloader:
+### Wattpad_Downloader:
 
 This method involves running [AaronBenDaniel](https://github.com/AaronBenDaniel)'s {{< linknewtab "https://github.com/AaronBenDaniel/Wattpad_Downloader" "Wattpad_Downloader" >}} using a python virtual environment.
 

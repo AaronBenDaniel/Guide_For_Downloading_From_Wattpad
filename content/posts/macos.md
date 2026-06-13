@@ -4,7 +4,7 @@
     weight: 7
 ---
 
-There are six ways to run a Wattpad downloader on MacOS: wpd.my, wpdl-py-cross (precompiled), wpdl-py-cross (Python), Wattpad_Downloader, Google Colab, and Docker.
+There are five ways to run a Wattpad downloader on MacOS: wpd.my, wp-epub-rs-emini (GraalVM), Wattpad_Downloader, Google Colab, and Docker.
 
 *None of these methods have been tested by myself, as I do not have a Mac. They should all work, however.*
 
@@ -13,59 +13,18 @@ There are six ways to run a Wattpad downloader on MacOS: wpd.my, wpdl-py-cross (
 [wpd.my](https://wpd.my) is {{< linknewtab "https://github.com/TheOnlyWayUp/" "TheOnlyWayUp" >}}'s public instance of their project, {{< linknewtab "https://github.com/TheOnlyWayUp/WattpadDownloader" "WattpadDownloader" >}}. \
 *Note: this website is liable to be removed by Wattpad at any time.*
 
-### wpdl-py-cross (precomiled):
+### wp-epub-rs-emini (GraalVM):
 
-Using the wpdl-py-cross (precompiled) method if by far the easiest way to download stories from Wattpad. Choose this option if you aren't sure what to pick.
+This method involves running [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/WattDownload/wp-epub-rs-emini" "wp-epub-rs-emini" >}} using GraalVM.
 
-This method involves running a precompiled version of [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-py-cross" "wpdl-py-cross" >}}.
+1) Install `GraalVM 25`. \
+[Follow their guide](https://www.graalvm.org/downloads/).
 
-1) Download the MacOS `.zip` from  [Github](https://github.com/ZhiFenBL/bin-wpdl-py/releases/download/v0.0.1/macos-build-arm64-v0.0.1.zip).
+2) Download [the file called "macos-aarch64-wprust-0.3.0-alpha.1.jar"](https://github.com/WattDownload/wp-epub-rs-emini/releases)
 
-2) ???
+3) Run `java -jar macos-aarch64-wprust-0.3.0-alpha.1.jar` in your terminal.
 
-I don't know. I've never used a Mac, but the file you just downloaded should have what you need.
-
-### wpdl-py-cross (Python):
-
-This method involves running [ZhiFenBL](https://github.com/ZhiFenBL)'s {{< linknewtab "https://github.com/ZhiFenBL/wpdl-py-cross" "wpdl-py-cross" >}} using a python virtual environment.
-
-1) Download and run the {{< linknewtab "https://www.python.org/ftp/python/3.13.5/python-3.13.5-macos11.pkg" "Python installer" >}}.
-
-2) Clone {{< linknewtab "https://github.com/ZhiFenBL/wpdl-py-cross" "wpdl-py-cross" >}}:
-
-```
-git clone https://github.com/ZhiFenBL/wpdl-py-cross
-cd wpdl-py-cross
-```
-
-3) Create a Python virtual environment:
-
-```
-mkdir venv
-python3 -m venv venv
-```
-
-4) Activate the virtual environment:
-
-```
-source venv/bin/activate
-```
-
-5) Install `uv`:
-
-```
-pip install uv
-```
-
-6) Run wpdl-py-cross:
-
-```
-uv run flet run
-```
-
-**Follow steps 4 and 6 to run `wpdl-py-cross` again**
-
-### Wattad_Downloader:
+### Wattpad_Downloader:
 
 This method involves running [AaronBenDaniel](https://github.com/AaronBenDaniel)'s {{< linknewtab "https://github.com/AaronBenDaniel/Wattpad_Downloader" "Wattpad_Downloader" >}} using a python virtual environment.
 
@@ -97,7 +56,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-6) Run wpdl-py-cross:
+6) Run Wattpad_Downloader:
 
 ```
 python src/main.py
